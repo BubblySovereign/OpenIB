@@ -49,7 +49,7 @@ Step 3.(Optional) By default, OpenIB will ignore any changes you make to the tem
 Step 4. OpenIB can function in a *very* barebones fashion after the first two steps, but you should probably install these additional packages if you want to seriously run it and/or contribute to it. Make sure to run the below as root:
 
 ```
-pkg add graphicxmagick gifsicle nginx mysql56-server php56 php56-mysql ffmpeg pear 
+apt install imagemagick gifsicle nginx php php-mysql ffmpeg pear mysql-server
 ```
 
 Page Generation
